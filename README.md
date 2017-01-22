@@ -1,13 +1,13 @@
 <h1 style="font-family: courier;" align="center"> satstep6600</h1>
 <p align="center">
-<img src="media/" width="70%">
-<div align="center"><i>Open source & fabbable stepper driver based on TB6600 and capable of up to 5A current. </i></div>
+<img src="media/satstep6600_all.jpg" width="70%">
+<div align="center"><i>An open source & fabbable stepper driver based on TB6600.</i></div>
 </p>
 
 satstep6600
 --
 
-satstep6600 is a **low cost and fabbable** stepper driver. Heavily inspired by the [PiBot TB6600 stepper driver](http://reprap.org/wiki/PiBot_TB6600_Stepper_Driver), it is designed on purpose to maintain all the high power specs while being safe to operate and easy to build, even using the stardard Fab Lab equipment.
+satstep6600 is a **low cost and fabbable** stepper driver. For several things inspired by the [PiBot TB6600 stepper driver](http://reprap.org/wiki/PiBot_TB6600_Stepper_Driver), satstep6600 is designed on purpose to maintain all the high power specs while being safe to be operated and easy to build, even using the stardard Fab Lab equipment.
 
 satstep6600 fetures:
 
@@ -25,6 +25,8 @@ satstep6600 fetures:
 - it costs 13 euro
 
 <img src="media/satstep6600board.png" width="70%">
+
+<img src="media/satstep6600_zoom.jpg" width="70%">
 
 getting started
 --
@@ -72,11 +74,22 @@ Downloads
 - [satstep6600 BOM xlsx](https://github.com/satstep/satstep6600/raw/master/docs/satstep6600_BOM.xlsx)
 
 
-
 Media
 --
 
-<img src="media/readme/satshakit_fc_power_0.jpeg" width="70%">
+<img src="media/satstep6600_board_top.jpg" width="70%">
+<img src="media/satstep6600_board_bottom.jpg" width="70%">
+<img src="media/satstep6600_top.jpg" width="70%">
+<img src="media/satstep6600_side_top.jpg" width="70%">
+<img src="media/satstep6600_flipped_side.jpg" width="70%">
+<img src="media/satstep6600_b2w.jpg" width="70%">
+
+<a href="https://www.youtube.com/watch?v=5523ECHDnfE" target="_blank"><img src="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" 
+alt="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" width="240" height="180" border="10" /></a>
+
+<a href="https://www.youtube.com/watch?v=U822JZaIcNg
+" target="_blank"><img src="http://img.youtube.com/vi/U822JZaIcNg/0.jpg" 
+alt="http://img.youtube.com/vi/U822JZaIcNg/0.jpg" width="240" height="180" border="10" /></a>
 
 What's in the repo
 --
