@@ -28,7 +28,7 @@ satstep6600 fetures:
 
 <img src="media/satstep6600_zoom.jpg" width="70%">
 
-getting started
+Getting started
 --
 
 To connect your satstep6600 have a look to its **pinout**:
@@ -76,12 +76,7 @@ Downloads
 Media
 --
 
-<img src="media/satstep6600_board_top.jpg" width="70%">
-<img src="media/satstep6600_board_bottom.jpg" width="70%">
-<img src="media/satstep6600_top.jpg" width="70%">
-<img src="media/satstep6600_side_top.jpg" width="70%">
-<img src="media/satstep6600_flipped_side.jpg" width="70%">
-<img src="media/satstep6600_b2w.jpg" width="70%">
+videos of satstep6600 moving NEMA 23 stepper motors:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=5523ECHDnfE
 " target="_blank"><img src="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" 
@@ -90,6 +85,15 @@ alt="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" width="240" height="180" borde
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=U822JZaIcNg
 " target="_blank"><img src="http://img.youtube.com/vi/U822JZaIcNg/0.jpg" 
 alt="http://img.youtube.com/vi/U822JZaIcNg/0.jpg" width="240" height="180" border="10" /></a>
+
+other images of the satstep6600 driver board:
+
+<img src="media/satstep6600_board_top.jpg" width="70%">
+<img src="media/satstep6600_board_bottom.jpg" width="70%">
+<img src="media/satstep6600_top.jpg" width="70%">
+<img src="media/satstep6600_side_top.jpg" width="70%">
+<img src="media/satstep6600_flipped_side.jpg" width="70%">
+<img src="media/satstep6600_b2w.jpg" width="70%">
 
 What's in the repo
 --
