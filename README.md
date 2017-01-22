@@ -4,6 +4,58 @@
 <div align="center"><i>Open source & fabbable stepper driver based on TB6600 and capable of up to 5A current. </i></div>
 </p>
 
+satstep6600
+--
+
+satstep6600 is a low cost and fabbable stepper driver. Heavily inspired by the [PiBot TB6600 stepper driver](http://reprap.org/wiki/PiBot_TB6600_Stepper_Driver), it is designed on purpose to maintain all the high power specs while being safe to operate and easy to build, even using the stardard Fab Lab equipment.
+
+satstep6600 fetures:
+
+- chopper type stepper motor driver
+- 5A peak output current, 4.5A maximum operating range
+- 8-40V input voltage 
+- 1/1, 1/2A(0-71-100%), 1/2B(0-100%), 1/4, 1/8, 1/16 stepping modes
+- suitable for NEMA 17, NEMA 23 and few NEMA 34 stepper motors
+- thermal shut down protection
+- under voltage lock out protection
+- over-current detection protection
+- optoisolated for all the inputs
+- 4 x M3 fixing holes
+- board size of 70x63mm
+
+<img src="media/satstep6600board.png" width="70%">
+
+getting started
+--
+
+To connect your satstep6600 have a look to its **pinout**:
+
+and connect the pin as follows:
+
+<img src="media/satstep6600_pinout.png" width="70%">
+
+- **VCC** -> to the VCC of the power supply, supported voltage between 8-40V
+- **GND** on top -> to the GND of the power supply
+- **GND** on bottom right -> to the GND of your controller board (eg a [satshakit](https://github.com/satshakit/) or an Arduino
+- **DIR** -> to the direction pin of your controller board, this defines the direction of the rotation
+- **CLK** -> to the direction CLK pin of your controller board, this is used to received the signals to makes steps
+- **EN** -> to a pin with digital signal of your controller board, LOW means ENABLED
+
+To configure the driver you can use the 5 position dip switch and the trimmer. The trimmer will regulate the amount of current given to the motor. Please make sure that you will **never supply more current** than the amount in the datasheet of your stepper motor. **Rotating the trimmer towards 103 will increase the current.** the dip swith will change other settings as the following list:
+
+- **TQ on**: 100% input Vref, **TQ off**: 30% input Vref
+- **LATCH on**: thermal shutdown and over current protection, **LATCH off**: only thermal shutdown
+
+- **M1, M2, M3** define the stepping mode:
+- M1 off, M2 off, M3 off -> standby
+- M1 off, M2 off, M3 on -> 1/1
+- M1 off, M2 on, M3 off -> 1/2A (0-71-100%)
+- M1 off, M2 on, M3 on -> 1/2B
+- M1 on, M2 off, M3 off -> 1/4
+- M1 on, M2 off, M3 on -> 1/8
+- M1 on, M2 on, M3 off -> 1/16
+
+
 Downloads
 --
 
