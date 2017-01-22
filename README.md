@@ -2,16 +2,35 @@
 <p align="center">
 <img src="media/" width="70%">
 <div align="center"><i> Open source & fabbable stepper driver based on TB6600 and capable of up to 5A.</i></div>
-</p>  
+</p>
+
+Downloads
+--
+
+**downloads (right click, download as)**
+
+- [satstep6600 board](https://github.com/satstep/satstep6600/raw/master/eagle/driver_tb6600.brd)
+- [satstep6600 schematic](https://github.com/satstep/satstep6600/raw/master/eagle/driver_tb6600.sch)
+- [satstep6600 top internal path png](https://github.com/satstep/satstep6600/raw/master/media/top_internal.png)
+- [satstep6600 top external path png](https://github.com/satstep/satstep6600/raw/master/media/top_external.png)
+- [satstep6600 bottom internal path png](https://github.com/satstep/satstep6600/raw/master/media/bottom_internal.png)
+- [satstep6600 bottom external path png](https://github.com/satstep/satstep6600/raw/master/media/bottom_external.png)
 
 
+Media
+--
+
+<img src="media/readme/satshakit_fc_power_0.jpeg" width="70%">
 
 What's in the repo
 --
 
-- **[docs](https://github.com/satshakit/satshakit-flight-controller/tree/master/docs)**: BOM files
-- **[egle projects](https://github.com/satshakit/satshakit-flight-controller/tree/master/eagle_projects)**: eagle projects of the satshakit flight controller
-- **[media](https://github.com/satshakit/satshakit-flight-controller/tree/master/media)**: svgs, connections schemas, images for cnc milling machine, other images
+- **[docs](https://github.com/satstep/satstep6600/tree/master/docs)**: BOM files
+- **[egle](https://github.com/satstep/satstep6600/tree/master/eagle)**: eagle projects of the satstep6600 drive
+- **[media](https://github.com/satstep/satstep6600/tree/master/media)**: svgs, connections schemas, images for cnc milling machine, other images
+
+
+
 
 Authors
 --
