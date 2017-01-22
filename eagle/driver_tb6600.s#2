@@ -2143,11 +2143,11 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R7" library="SparkFun-Resistors" deviceset="0.001OHM-3W-1%(2512)" device="3W/1%" value="0.68"/>
 <part name="R8" library="fab" deviceset="RES-US" device="1206" value="51K"/>
 <part name="R9" library="fab" deviceset="RES-US" device="1206" value="1K"/>
-<part name="R10" library="fab" deviceset="RES-US" device="1206" value="10K"/>
+<part name="R10" library="fab" deviceset="RES-US" device="1206" value="12K"/>
 <part name="C1" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>
 <part name="C3" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP_POL" device="C" value="100uF"/>
-<part name="LED1" library="FAB_Hello" deviceset="LED" device="1206" value="RED"/>
+<part name="LED1" library="FAB_Hello" deviceset="LED" device="1206" value="BLUE"/>
 <part name="R11" library="fab" deviceset="RES-US" device="1206" value="1K"/>
 <part name="LED2" library="FAB_Hello" deviceset="LED" device="1206" value="YELLOW"/>
 <part name="C4" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>

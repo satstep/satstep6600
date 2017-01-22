@@ -2143,13 +2143,13 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R7" library="SparkFun-Resistors" deviceset="0.001OHM-3W-1%(2512)" device="3W/1%" value="0.68"/>
 <part name="R8" library="fab" deviceset="RES-US" device="1206" value="51K"/>
 <part name="R9" library="fab" deviceset="RES-US" device="1206" value="1K"/>
-<part name="R10" library="fab" deviceset="RES-US" device="1206" value="10K"/>
+<part name="R10" library="fab" deviceset="RES-US" device="1206" value="12K"/>
 <part name="C1" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>
 <part name="C3" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP_POL" device="C" value="100uF"/>
-<part name="LED1" library="FAB_Hello" deviceset="LED" device="1206" value="RED"/>
+<part name="LED1" library="FAB_Hello" deviceset="LED" device="1206" value="BLUE"/>
 <part name="R11" library="fab" deviceset="RES-US" device="1206" value="1K"/>
-<part name="LED2" library="FAB_Hello" deviceset="LED" device="1206" value="YELLOW"/>
+<part name="LED2" library="FAB_Hello" deviceset="LED" device="1206" value="RED"/>
 <part name="C4" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH3" value="330uF"/>
 <part name="C6" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.01uF"/>
@@ -2158,7 +2158,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="U1" library="74HC123D" deviceset="74HC123D" device=""/>
 <part name="R13" library="fab" deviceset="RES-US" device="1206" value="5.1K"/>
 <part name="C7" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>
-<part name="R14" library="fab" deviceset="RES-US" device="1206" value="499K"/>
+<part name="R14" library="fab" deviceset="RES-US" device="1206" value="560K"/>
 <part name="TLP521-1" library="optocoupler" deviceset="PC817" device=""/>
 <part name="4N35" library="optocoupler" deviceset="4N35" device=""/>
 <part name="R15" library="fab" deviceset="RES-US" device="1206" value="330"/>
