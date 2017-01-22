@@ -12,7 +12,7 @@ satstep6600 is a **low cost and fabbable** stepper driver. For several things in
 satstep6600 fetures:
 
 - chopper type stepper motor driver
-- 5A peak output current, 4.5A sustained maximum
+- 5A peak output current, **4.5A** sustained maximum
 - 8-40V input voltage 
 - 1/1, 1/2A(0-71-100%), 1/2B(0-100%), 1/4, 1/8, 1/16 stepping modes
 - suitable for NEMA 17, NEMA 23 and few NEMA 34 stepper motors
@@ -22,7 +22,7 @@ satstep6600 fetures:
 - optoisolated for all the inputs
 - 4 x M3 fixing holes
 - board size of 70x63mm
-- it costs 13 euro
+- it costs **13 euro**
 
 <img src="media/satstep6600board.png" width="70%">
 
