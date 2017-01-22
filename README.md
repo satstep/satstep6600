@@ -44,7 +44,7 @@ and connect the pin as follows:
 - **CLK** -> to the CLK pin of your controller board, this is used to receive the signals to makes steps
 - **EN** -> to a pin with digital signal of your controller board, LOW means ENABLED
 
-To configure the driver you can use the 5 position dip switch and the trimmer. The trimmer will regulate the amount of current given to the motor. Please make sure that you will **never supply more current** than the amount in the datasheet of your stepper motor. **Rotating the trimmer towards 103 will increase the current.** 
+To configure the driver you can use the 5 position dip switch and the trimmer. The trimmer will regulate the amount of current given to the motor. Please make sure that you will **never supply more current** than the amount in the datasheet of your stepper motor. **Rotating the trimmer towards 103 will increase the current.** For continous use over 2A is recommended to use a fan to cool down the driver. 
 
 The dip swith will change other settings as the following list:
 - **TQ on**: 100% input Vref, **TQ off**: 30% input Vref
