@@ -12,7 +12,7 @@ satstep6600 is a **low cost and fabbable** stepper driver. For several things in
 satstep6600 fetures:
 
 - chopper type stepper motor driver
-- 5A peak output current, 4.5A maximum operating range
+- 5A peak output current, 4.5A sustained maximum
 - 8-40V input voltage 
 - 1/1, 1/2A(0-71-100%), 1/2B(0-100%), 1/4, 1/8, 1/16 stepping modes
 - suitable for NEMA 17, NEMA 23 and few NEMA 34 stepper motors
@@ -39,24 +39,24 @@ and connect the pin as follows:
 
 - **VCC** -> to the VCC of the power supply, supported voltage between 8-40V
 - **GND** on top -> to the GND of the power supply
-- **GND** on bottom right -> to the GND of your controller board (eg a [satshakit](https://github.com/satshakit/) or an Arduino
+- **GND** on bottom right -> to the GND of your controller board (eg a [satshakit](https://github.com/satshakit/) or an Arduino)
 - **DIR** -> to the direction pin of your controller board, this defines the direction of the rotation
-- **CLK** -> to the direction CLK pin of your controller board, this is used to received the signals to makes steps
+- **CLK** -> to the CLK pin of your controller board, this is used to receive the signals to makes steps
 - **EN** -> to a pin with digital signal of your controller board, LOW means ENABLED
 
-To configure the driver you can use the 5 position dip switch and the trimmer. The trimmer will regulate the amount of current given to the motor. Please make sure that you will **never supply more current** than the amount in the datasheet of your stepper motor. **Rotating the trimmer towards 103 will increase the current.** the dip swith will change other settings as the following list:
+To configure the driver you can use the 5 position dip switch and the trimmer. The trimmer will regulate the amount of current given to the motor. Please make sure that you will **never supply more current** than the amount in the datasheet of your stepper motor. **Rotating the trimmer towards 103 will increase the current.** 
 
+The dip swith will change other settings as the following list:
 - **TQ on**: 100% input Vref, **TQ off**: 30% input Vref
 - **LATCH on**: thermal shutdown and over current protection, **LATCH off**: only thermal shutdown
-
 - **M1, M2, M3** define the stepping mode:
-- M1 off, M2 off, M3 off -> standby
-- M1 off, M2 off, M3 on -> 1/1
-- M1 off, M2 on, M3 off -> 1/2A (0-71-100%)
-- M1 off, M2 on, M3 on -> 1/2B
-- M1 on, M2 off, M3 off -> 1/4
-- M1 on, M2 off, M3 on -> 1/8
-- M1 on, M2 on, M3 off -> 1/16
+	- M1 off, M2 off, M3 off -> standby
+	- M1 off, M2 off, M3 on -> 1/1
+	- M1 off, M2 on, M3 off -> 1/2A (0-71-100%)
+	- M1 off, M2 on, M3 on -> 1/2B
+	- M1 on, M2 off, M3 off -> 1/4
+	- M1 on, M2 off, M3 on -> 1/8
+	- M1 on, M2 on, M3 off -> 1/16
 
 Downloads
 --
@@ -83,10 +83,11 @@ Media
 <img src="media/satstep6600_flipped_side.jpg" width="70%">
 <img src="media/satstep6600_b2w.jpg" width="70%">
 
-<a href="https://www.youtube.com/watch?v=5523ECHDnfE" target="_blank"><img src="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=5523ECHDnfE
+" target="_blank"><img src="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" 
 alt="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" width="240" height="180" border="10" /></a>
 
-<a href="https://www.youtube.com/watch?v=U822JZaIcNg
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=U822JZaIcNg
 " target="_blank"><img src="http://img.youtube.com/vi/U822JZaIcNg/0.jpg" 
 alt="http://img.youtube.com/vi/U822JZaIcNg/0.jpg" width="240" height="180" border="10" /></a>
 
