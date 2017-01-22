@@ -9,7 +9,7 @@
 What's in the repo
 --
 
-- **[docs](https://github.com/satshakit/satshakit-flight-controller/tree/master/docs)**: BOM files for Farnell
+- **[docs](https://github.com/satshakit/satshakit-flight-controller/tree/master/docs)**: BOM files
 - **[egle projects](https://github.com/satshakit/satshakit-flight-controller/tree/master/eagle_projects)**: eagle projects of the satshakit flight controller
 - **[media](https://github.com/satshakit/satshakit-flight-controller/tree/master/media)**: svgs, connections schemas, images for cnc milling machine, other images
 
