@@ -7,7 +7,7 @@
 satstep6600
 --
 
-satstep6600 is a low cost and fabbable stepper driver. Heavily inspired by the [PiBot TB6600 stepper driver](http://reprap.org/wiki/PiBot_TB6600_Stepper_Driver), it is designed on purpose to maintain all the high power specs while being safe to operate and easy to build, even using the stardard Fab Lab equipment.
+satstep6600 is a **low cost and fabbable** stepper driver. Heavily inspired by the [PiBot TB6600 stepper driver](http://reprap.org/wiki/PiBot_TB6600_Stepper_Driver), it is designed on purpose to maintain all the high power specs while being safe to operate and easy to build, even using the stardard Fab Lab equipment.
 
 satstep6600 fetures:
 
@@ -22,6 +22,7 @@ satstep6600 fetures:
 - optoisolated for all the inputs
 - 4 x M3 fixing holes
 - board size of 70x63mm
+- it costs 13 euro
 
 <img src="media/satstep6600board.png" width="70%">
 
@@ -30,9 +31,9 @@ getting started
 
 To connect your satstep6600 have a look to its **pinout**:
 
-and connect the pin as follows:
-
 <img src="media/satstep6600_pinout.png" width="70%">
+
+and connect the pin as follows:
 
 - **VCC** -> to the VCC of the power supply, supported voltage between 8-40V
 - **GND** on top -> to the GND of the power supply
