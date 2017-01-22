@@ -58,7 +58,6 @@ To configure the driver you can use the 5 position dip switch and the trimmer. T
 - M1 on, M2 off, M3 on -> 1/8
 - M1 on, M2 on, M3 off -> 1/16
 
-
 Downloads
 --
 
@@ -97,9 +96,6 @@ What's in the repo
 - **[docs](https://github.com/satstep/satstep6600/tree/master/docs)**: BOM files
 - **[egle](https://github.com/satstep/satstep6600/tree/master/eagle)**: eagle projects of the satstep6600 drive
 - **[media](https://github.com/satstep/satstep6600/tree/master/media)**: svgs, connections schemas, images for cnc milling machine, other images
-
-
-
 
 Authors
 --
