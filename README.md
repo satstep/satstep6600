@@ -12,7 +12,7 @@ satstep6600 is a **low cost and fabbable** stepper driver. For several things in
 satstep6600 fetures:
 
 - chopper type stepper motor driver
-- 5A peak output current, **4.5A** sustained maximum
+- 5A peak output current, **4.5A** sustained maximum (over 2A a fan is recommended)
 - 8-40V input voltage 
 - 1/1, 1/2A(0-71-100%), 1/2B(0-100%), 1/4, 1/8, 1/16 stepping modes
 - suitable for NEMA 17, NEMA 23 and few NEMA 34 stepper motors
