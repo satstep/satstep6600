@@ -69,8 +69,17 @@ Downloads
 - [satstep6600 top external path png](https://github.com/satstep/satstep6600/raw/master/media/top_external.png)
 - [satstep6600 bottom internal path png](https://github.com/satstep/satstep6600/raw/master/media/bottom_internal.png)
 - [satstep6600 bottom external path png](https://github.com/satstep/satstep6600/raw/master/media/bottom_external.png)
+
+- [satstep6600 board for 0.4 mills](https://github.com/satstep/satstep6600/raw/master/eagle/satstep6600_04/driver_tb6600.brd)
+- [satstep6600 schematic for 0.4 mills](https://github.com/satstep/satstep6600/raw/master/eagle/satstep6600_04/driver_tb6600.sch)
+- [satstep6600 for 0.4 mills top internal path png](https://github.com/satstep/satstep6600/raw/master/media/satstep6600_04/top_internal.png)
+- [satstep6600 for 0.4 mills top external path png](https://github.com/satstep/satstep6600/raw/master/media/satstep6600_04/top_external.png)
+- [satstep6600 for 0.4 mills bottom internal path png](https://github.com/satstep/satstep6600/raw/master/media/satstep6600_04/bottom_internal.png)
+- [satstep6600 for 0.4 mills bottom external path png](https://github.com/satstep/satstep6600/raw/master/media/satstep6600_04/bottom_external.png)
+
 - [satstep6600 BOM ods](https://github.com/satstep/satstep6600/raw/master/docs/satstep6600_BOM.ods)
 - [satstep6600 BOM xlsx](https://github.com/satstep/satstep6600/raw/master/docs/satstep6600_BOM.xlsx)
+
 
 
 Media
