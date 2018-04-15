@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -824,10 +825,10 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -961,13 +962,13 @@ design rules under a new name.</description>
 <element name="C5" library="SparkFun-Capacitors" package="CPOL-RADIAL-1000UF-63V" value="330uF" x="60.452" y="41.6814" rot="R90"/>
 <element name="C6" library="FAB_Hello" package="1206" value="0.01uF" x="22.1488" y="26.2128"/>
 <element name="R12" library="fab" package="R1206" value="5.1K" x="16.256" y="31.4452" rot="R270"/>
-<element name="T1" library="Ava" package="TS53YL104MR10_TRIMMER" value="10K" x="16.8656" y="23.2918" rot="R180"/>
+<element name="T1" library="Ava" package="TS53YL104MR10_TRIMMER" value="5K" x="16.8656" y="23.2918" rot="R180"/>
 <element name="U1" library="74HC123D" package="SOIC127P600X175-16N" value="74HC123D" x="9.3218" y="14.0208" rot="R90">
-<attribute name="SUPPLIER" value="NXP" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="74HC123D" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1085332" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE" value="SOIC-16" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="99K0580" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="SOIC-16" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="NXP" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R13" library="fab" package="R1206" value="5.1K" x="10.8458" y="26.416"/>
 <element name="C7" library="FAB_Hello" package="1206" value="0.1uF" x="9.3726" y="21.844"/>
@@ -991,29 +992,29 @@ design rules under a new name.</description>
 <element name="POWER" library="WEIDMULLER-PM5.08_2_90BLK" package="WEIDMULLER_PM5.08_2" value="PM5.08/2/90BLK" x="38.8366" y="59.055" rot="MR0">
 <attribute name="MPN" value="PM5.08/2/90 BLK" x="38.8366" y="59.055" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1131855 " x="38.8366" y="59.055" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="TH-R/A" x="38.8366" y="59.055" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="26M1980 " x="38.8366" y="59.055" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="TH-R/A" x="38.8366" y="59.055" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SUPPLIER" value="WEIDMULLER " x="38.8366" y="59.055" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="STEPPER_CONN_1" library="WEIDMULLER-PM5.08_2_90BLK" package="WEIDMULLER_PM5.08_2" value="PM5.08/2/90BLK" x="28.4988" y="59.1058" rot="MR0">
+<attribute name="MPN" value="PM5.08/2/90 BLK" x="28.4988" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1131855 " x="28.4988" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" value="26M1980 " x="28.4988" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="TH-R/A" x="28.4988" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SUPPLIER" value="WEIDMULLER " x="28.4988" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_NEWARK" value="26M1980 " x="28.4988" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PM5.08/2/90 BLK" x="28.4988" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J3" library="WEIDMULLER-PM5.08_2_90BLK" package="WEIDMULLER_PM5.08_2" value="STEPPER_CONN_2" x="18.1102" y="59.1058" rot="MR0">
+<attribute name="MPN" value="PM5.08/2/90 BLK" x="18.1102" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1131855 " x="18.1102" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" value="26M1980 " x="18.1102" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="TH-R/A" x="18.1102" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SUPPLIER" value="WEIDMULLER " x="18.1102" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_NEWARK" value="26M1980 " x="18.1102" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PM5.08/2/90 BLK" x="18.1102" y="59.1058" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R22" library="fab" package="R1206" value="1K" x="22.9108" y="37.6428" rot="R90"/>
 <element name="SL1" library="con-amp-quick" package="05P" value="" x="50.2666" y="21.2852" rot="R270">
 <attribute name="MF" value="" x="50.2666" y="21.2852" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="50.2666" y="21.2852" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="50.2666" y="21.2852" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="50.2666" y="21.2852" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="50.2666" y="21.2852" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
