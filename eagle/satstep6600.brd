@@ -962,7 +962,7 @@ design rules under a new name.</description>
 <element name="C5" library="SparkFun-Capacitors" package="CPOL-RADIAL-1000UF-63V" value="330uF" x="60.452" y="41.6814" rot="R90"/>
 <element name="C6" library="FAB_Hello" package="1206" value="0.01uF" x="22.1488" y="26.2128"/>
 <element name="R12" library="fab" package="R1206" value="5.1K" x="16.256" y="31.4452" rot="R270"/>
-<element name="T1" library="Ava" package="TS53YL104MR10_TRIMMER" value="5k" x="16.8656" y="23.2918" rot="R180"/>
+<element name="T1" library="Ava" package="TS53YL104MR10_TRIMMER" value="5K" x="16.8656" y="23.2918" rot="R180"/>
 <element name="U1" library="74HC123D" package="SOIC127P600X175-16N" value="74HC123D" x="9.3218" y="14.0208" rot="R90">
 <attribute name="MPN" value="74HC123D" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1085332" x="9.3218" y="14.0208" size="1.778" layer="27" rot="R90" display="off"/>
