@@ -2155,7 +2155,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH3" value="330uF"/>
 <part name="C6" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.01uF"/>
 <part name="R12" library="fab" deviceset="RES-US" device="1206" value="5.1K"/>
-<part name="T1" library="Ava" deviceset="TS53YL104MR10-TRIMMER" device="" value="5K"/>
+<part name="T1" library="Ava" deviceset="TS53YL104MR10-TRIMMER" device="" value="5k"/>
 <part name="U1" library="74HC123D" deviceset="74HC123D" device=""/>
 <part name="R13" library="fab" deviceset="RES-US" device="1206" value="5.1K"/>
 <part name="C7" library="FAB_Hello" deviceset="UNPOLARIZED_CAPACITOR" device="1206" value="0.1uF"/>
