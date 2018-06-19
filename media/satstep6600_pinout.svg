@@ -14,8 +14,11 @@
    viewBox="0 0 257.76001 234.72001"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="satstep6600_pinout.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="satstep6600_pinout.svg"
+   inkscape:export-filename="/home/satsha/satstep6600/media/satstep6600_pinout.png"
+   inkscape:export-xdpi="299.93015"
+   inkscape:export-ydpi="299.93015">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,16 +29,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="137.74045"
-     inkscape:cy="120.38731"
+     inkscape:cx="81.133307"
+     inkscape:cy="63.244453"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="775"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -45,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -259,7 +262,7 @@
          id="tspan4178-1-8-0-1-9"
          x="47.898067"
          y="885.45178"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">TQ</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">M2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -275,7 +278,7 @@
          id="tspan4178-1-8-0-1-9-4"
          x="48.068966"
          y="894.67273"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">M1</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">LA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -307,7 +310,7 @@
          id="tspan4178-1-8-0-1-9-4-6-4"
          x="47.923702"
          y="913.58344"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">LA</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">M1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -323,6 +326,6 @@
          id="tspan4178-1-8-0-1-9-4-6-4-8"
          x="47.722897"
          y="921.67035"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">M2</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.75000095px;line-height:125%;font-family:aakar;-inkscape-font-specification:'aakar, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000">TQ</tspan></text>
   </g>
 </svg>
