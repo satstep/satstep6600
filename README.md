@@ -7,7 +7,7 @@
 satstep6600
 --
 
-satstep6600 is a **low cost and fabbable** stepper driver. Based on the [PiBot TB6600 stepper driver](http://reprap.org/wiki/PiBot_TB6600_Stepper_Driver), satstep6600 is designed on purpose to maintain all the high power specs while being safe to be operated and easy to build, even using the stardard Fab Lab equipment.
+satstep6600 is a **low cost and fabbable** stepper driver. Inspired by the [PiBot TB6600 stepper driver](http://reprap.org/wiki/PiBot_TB6600_Stepper_Driver), satstep6600 is designed on purpose to maintain all the high power specs while being safe to be operated and easy to build, even using the stardard Fab Lab equipment.
 
 satstep6600 features:
 
@@ -133,7 +133,7 @@ fablab@hochschule-rhein-waal.de
 License
 --
 
-This work is licensed under the terms of Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+This work is licensed under the terms of the open source license: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 Disclaimer  
 --
